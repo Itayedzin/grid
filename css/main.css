@@ -42,12 +42,12 @@ body{
   background-color: #00BCAF;
 }
 
-.col-5{
+.col-6{
   width: 49%;
   background-color: #AC00D6;
 }
 
-.col-6{
+.col-12{
   width: 99%;
   background-color: #E600AB;
 }
