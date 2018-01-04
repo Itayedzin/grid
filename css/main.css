@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row:before,
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+[class*="col-"]{
+  float: left;
+  min-height: 5em;
+  margin: .5%;
+}
+
+.col-1{
+  width: 7.33%;
+  background-color: #FCFF00;
+}
+
+.col-2{
+  width: 15.66%;
+  background-color: #8EFF00;
+}
+
+.col-3{
+  width: 24%;
+  background-color: #00ECA5;
+}
+
+.col-4{
+  width: 32.3%;
+  background-color: #00BCAF;
+}
+
+.col-5{
+  width: 49%;
+  background-color: #AC00D6;
+}
+
+.col-6{
+  width: 99%;
+  background-color: #E600AB;
+}
